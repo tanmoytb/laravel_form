@@ -7,7 +7,13 @@ use Illuminate\Http\Request;
 class showController extends Controller
 {
     public function index(Request $request) {
-      return view("show", ['inputText' => $request->input]);
+      // return $request;
+      return view("show", 
+      [
+        'inputName' => $request->inputName, 
+        'inputEmail' => $request->inputEmail, 
+        'inputCheck' => $request->inputCheck,
+      ]);
     }
 }
 

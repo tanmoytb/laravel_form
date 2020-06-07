@@ -72,7 +72,9 @@
                 </div>
 
                 <div class="links">
-                    <p>{{$inputText}}</p>
+                    <p>{{$inputName}}</p>
+                    <p>{{$inputEmail}}</p>
+                    <p>{{$inputCheck}}</p>
                 </div>
             </div>
         </div>
